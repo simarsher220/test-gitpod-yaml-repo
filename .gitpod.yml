@@ -1,9 +1,4 @@
-tasks:
-  - name: Database Setup
-    init: >
-      wget https://codejudge-starter-repo-artifacts.s3.ap-south-1.amazonaws.com/backend-project/gitpod/database-setup-java.sh &&
-      chmod 0755 database-setup-java.sh &&
-      bash database-setup-java.sh
+image: codejudge0/cj-gitpod-backend:latest
 ports:
 - port: 8080
   visibility: public
